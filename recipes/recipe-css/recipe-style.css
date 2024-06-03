@@ -1,0 +1,6 @@
+body {background-color: rgba(255, 118, 203, 0.678); font-family: Arial, Helvetica, sans-serif;}
+body {text-align: left ;}
+img {height: 300px; width: 300px;}
+.recipe-name {font-size: large; font-weight: bold;}
+#image-sinigang {height:150px ; width:150px }
+#sinigang-mix {height: 200px; width: auto;}
