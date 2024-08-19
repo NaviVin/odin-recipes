@@ -1,6 +1,130 @@
-body {background-color: rgba(255, 118, 203, 0.678); font-family: Arial, Helvetica, sans-serif;}
-body {text-align: left ;}
-img {height: 300px; width: 300px;}
-.recipe-name {font-size: large; font-weight: bold;}
-#image-sinigang {height:150px ; width:150px }
-#sinigang-mix {height: 200px; width: auto;}
+html, body {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 100vh;
+    text-align: center;
+    padding: 10px;
+    align-self: center;
+}
+
+.header {
+    font-size: 25px;
+    color: #1e3706;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: inherit; 
+}
+
+
+.container {
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    max-width: 900px; 
+    align-items: center;
+    border: 4px solid #1e3706;
+    border-radius: 20px;
+    max-height: fit-content;
+}
+
+.title {
+    font-size: 36px;
+    color: #1e3706;
+    font-weight: 100;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    max-width: auto; 
+    gap: 50px;
+    border: #1e3706;
+    padding: 0 50px;
+}
+
+.description {
+    max-width: 300px;
+    max-height: 300px;
+    align-self: center;
+    text-align: left;
+    font-size: 20px;
+}
+
+img {
+    max-width: 400px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.container3 {
+    display: flex;
+    padding: 50px;
+    text-align: left;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.ingredients-container {
+    flex: 1;
+    max-width: 250px;
+}
+
+.direction-container {
+    max-width: 500px;
+}
+
+.ingredients, .direction {
+    font-size: 25px;
+    color: #1e3706;
+}
+
+.footer-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer {
+    font-size: 15;
+    color: #1e3706;
+    margin-top: 200px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+button {
+    color: white;
+    background-color: #1e3706;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.text {
+    text-align: left;
+}
